@@ -1,0 +1,376 @@
+.listbar a
+{
+cursor: pointer;
+}
+#dashboard
+{
+    display: block;
+}
+#classes
+{
+    display: none;
+}
+#resources
+{
+    display: none;
+}
+.area
+{
+    width: 54vw;
+    height: 85vh;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.mainbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}  
+/*======left box=========*/
+
+.leftbox{
+    flex-basis: 15%;
+    background-color:white;
+    height: 650px;
+}
+.leftbox h3
+{
+    display: inline;
+    font-size: 30px;
+    color: #110c57;
+    padding-left: 10px;
+
+}
+.leftbox a
+{
+    text-decoration: none;
+}
+#logo
+{
+    position: relative;
+    top: 15px;
+
+}
+.leftbox ul 
+{
+    padding-top:15%;
+    padding-bottom: 100px;
+}
+ .leftbox ul li 
+ {
+     padding: 30px 5px 30px;
+     text-decoration: solid;
+     font-weight:bold;
+     color: #c4cad4;
+     list-style: none;
+ }
+ .listbar span
+ {
+     padding: 10px;
+ }
+ .leftinnerbox
+ {
+     background-color: #f5f6fb;
+     border-radius: 15px;
+     color:#b5b8c7;
+     padding: 10px;
+     margin-left: 10px;
+     text-align: center;
+ }
+
+.leftinnerbox span
+{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+.file
+{
+    height: 120px;
+    width: 100px;
+    position:relative;
+    top: -100px;
+    left: 10px;
+}
+.leftinnerbox button
+{
+    background-color: #5981fb;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    margin-top: 20px;
+}
+
+/*======middle box=========*/
+
+.middle
+{
+    flex-basis: 60%;
+    height: 650px;
+    background-color: #f5f6fb;
+}
+.middle h1
+{
+    padding:20px 20px 0px;
+    font-size: 20px;
+}
+.middle h4
+{
+    margin-top: -40px;
+    margin-right: 20px;
+    float: right;
+    color:#c4cad4 ;
+}
+.top
+{
+    background-color:#f8e5e9;
+    height: 150px;
+    border-radius: 10px;
+    margin: 60px 40px 0;
+    
+}
+.top p
+{
+    padding: 0px 20px 10px;
+}
+.programmer
+{
+    height: 200px;
+    position: relative;
+    top: -200px;
+    right: -450px;
+
+}
+.middle2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.box1
+{
+    flex-basis: 40%;
+    height: 300px;
+    background-color:#fff;
+    border-radius: 10px;
+    margin:20px 10px 20px 40px;
+}
+.box1 h3
+{
+margin: 20px;
+}
+.box2
+{
+    flex-basis: 60%;
+    height: 300px;
+    background-color:#fff;
+    border-radius: 10px;
+    margin-right: 40px;
+    margin-left: 15px;
+}
+.box2 h3
+{
+margin: 20px;
+}
+.middle3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:40px 40px 20px 40px;
+
+}
+.middle3 h3
+{
+    margin: 20px;
+}
+.middle h2
+{
+    color: #ff808b;
+    padding: 20px;
+    margin: auto;
+}
+.middle-bottom
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:10px 40px 20px 40px;
+}
+.middle-bottom p{
+    padding-left: 10px;
+    color: #fff;
+}
+.middle-bottom span
+{
+    color: rgba(255, 255, 255, 0.66);
+    margin-left: 2px;
+}
+
+.middle-bottom .card1
+{
+    flex-basis: 32%;
+    background-color: #4d4bac;
+    height: 60px;
+    border-radius: 10px;
+}
+.middle-bottom .card2
+{
+    flex-basis: 32%;
+    background-color:#9798d8;
+    height: 60px; 
+    border-radius: 10px; 
+}
+.middle-bottom .card3
+{
+    flex-basis: 32%; 
+    background-color:#ff808b;
+    height: 60px;
+    border-radius: 10px;
+}
+.middle-bottom .icon
+{
+    margin-top: 13px;
+    text-align:center;
+    font-size: 12px;
+    font-weight: 550;
+    color: #fff;
+    border-radius: 7px;
+    float: left;
+    height: 35px;
+    width: 35px;
+    background-color:rgba(255, 255, 255, 0.17);
+}
+
+
+/*======right box=========*/
+
+.rightbox
+{
+    flex-basis: 25%;
+    background-color: white;
+    height: 650px;
+    margin: 20px;
+}
+
+
+
+.sidebar-right
+{
+    flex-basis: 25%;
+    background-color: white;
+    height: 650px;
+}
+.sidebar-right h3
+{
+    margin-top:10px;
+    margin-left: 40px;
+}
+#login
+{
+    width: 250px;
+    height: 200px;
+    position: relative;
+    left:40px;
+}
+.sidebar-right .profile
+{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.subjects span
+{
+    margin-left:55px;
+    font-size: 15px;
+}
+.reminders span
+{
+    color: #cdced1;
+    font-size: 12px;
+    margin-left: 55px;
+    
+}
+.subjects ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#65666b;
+    margin-left:20px ; 
+}
+.reminders
+{
+    margin-top: 50px;
+}
+.reminders h4
+{
+    margin-left: 20px;
+}
+.reminders ul
+{
+    list-style: none;
+    color: #65666b;
+    margin-left:20px ;
+    margin-top: 20px;    
+}
+#subjectrhead
+{  
+margin-left: 55px;
+}
+#reminderhead
+{  
+margin-left: 55px;
+}
+.middle-bottom .icon
+{
+    margin: 12px;
+    text-align:center;
+    font-size: 12px;
+    font-weight: 550;
+    color: #fff;
+    border-radius: 7px;
+    float: left;
+    height: 35px;
+    width: 35px;
+    background-color:rgba(255, 255, 255, 0.17);
+}
+.sidebar-right .icon
+{
+    text-align:center;
+    font-size: 12px;
+    font-weight: 550;
+    color:#606168;
+    border-radius: 7px;
+    float: left;
+    height: 35px;
+    width: 35px;
+    background-color:#f5f6fb;
+}
+.reminders .icon i
+{
+    font-size: 15px;
+    padding: 9px;
+}
+.icon p
+{
+ padding: 2px;
+ 
+}
